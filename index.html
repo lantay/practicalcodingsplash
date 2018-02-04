@@ -11,6 +11,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+
 </head>
 
 <body>
@@ -22,14 +23,14 @@
 				<span></span>
 			</a>
 		</div>
-		<a href="#menu">Menu</a>
+		<!-- <a href="#menu">Menu</a> -->
 	</header>
 
-	<!-- Nav -->
+	<!-- Nav
 	<nav id="menu">
 		<ul class="links">
 			<li>
-				<a href="index.html">Home</a>
+				<a href="#one">Home</a>
 			</li>
 			<li>
 				<a href="generic.html">Generic</a>
@@ -38,7 +39,7 @@
 				<a href="elements.html">Elements</a>
 			</li>
 		</ul>
-	</nav>
+	</nav> -->
 
 	<!-- Banner -->
 	<section class="banner full">
@@ -81,7 +82,7 @@
 	</section>
 
 	<!-- One -->
-	<section id="one" class="wrapper style2">
+	<section id="one first" class="wrapper style2">
 		<div class="inner">
 			<div style="background-color:black;">
 				<header class="align-center ">
@@ -154,13 +155,13 @@
 	</section>
 
 	<!-- Two -->
-	<section id="two" class="wrapper style3">
+	<section id="two second" class="wrapper style3">
 		<div class="inner">
 			<header class="align-center">
 
 
 				<h1>How we do it</h1>
-				<p>The quality of a multi-thousand dollar bootcamp at the cost of a $99 online course</p>
+				<p>The quality of a multi-thousand dollar bootcamp at the cost of a $199 online course, on sale now for just $19.99 until February 10th </p>
 				<p style="text-transform:none !important">
 					It’s the way programmers THINK that matters. It’s about how they set up their coding environment, the way they search for
 					information when they don’t know the answer, and what type of projects they choose to create. It’s too common that people
@@ -172,7 +173,7 @@
 	</section>
 
 	<!-- Three -->
-	<section id="three" class="wrapper style2" style="background-color:white !important">
+	<section id="three third" class="wrapper style2" style="background-color:white !important">
 		<div class="inner" style="font-size:20px !important">
 			<div style="background-color:black;">
 				<header class="align-center ">
@@ -212,7 +213,7 @@
 		</div>
 	</section>
 	<!-- Two -->
-	<section id="two" class="wrapper style3">
+	<section id="two fourth" class="wrapper style3">
 		<div class="inner">
 
 
@@ -256,7 +257,7 @@
 	</section>
 
 	<!-- One -->
-	<section id="one" class="wrapper style2">
+	<section id="one fifth" class="wrapper style2">
 		<div class="inner">
 			<div style="background-color:black;">
 				<header class="align-center ">
@@ -299,14 +300,14 @@
 		</div>
 	</section>
 	<!-- Two -->
-	<section id="two" class="wrapper style3">
+	<section id="two sixth" class="wrapper style3">
 		<div class="inner">
 			<header class="align-center">
 
 
 				<h2> The Time to Code is Now <h2> 
 
-					<p>Learning to program is the best thing that will ever happen to you. It empowers you to work from anywhere, impress anyone, and bring your ideas to life faster than has ever been possible in history. This will be the best $99 you will ever spend</p>
+					<p>Learning to program is the best thing that will ever happen to you. It empowers you to work from anywhere, impress anyone, and bring your ideas to life faster than has ever been possible in history. This will be the best <s>$199</s> $19.99 you will ever spend</p>
 					
 					
 					<h2> 100% Satisfaction Guarantee <h2>
@@ -315,29 +316,23 @@
 							<h2> Still have questions?<h2>
 								<p>Talk to the founders directly on Facebook messenger, we are humans just like you. <br>facebook.com/gmlantay <br>or faceebook.com/quinntinruiz.</p>
 								<p>Or hit us up on email the old fashioned way: team@practicalcoding.io.</p>
-								<p><i>This will be the best $99 you will ever spend.<br>Sign up now and change your life</i></p>
+								<p><i>This will be the best <s>$199</s> $19.99 you will ever spend.<br>Sign up now and change your life.</i></p>
+								<br>
+								<p>Click below to preorder the course now through our secure payment form through Stripe. On sale for $19.99 until February 10th</p>
 								
-								<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-									<!-- Identify your business so that you can collect the payments. -->
-									<input type="hidden" name="business" value="gmlantay@gmail.com">
-								
-									<!-- Specify a Buy Now button. -->
-									<input type="hidden" name="cmd" value="_xclick">
-								
-									<!-- Specify details about the item that buyers will purchase. -->
-									<input type="hidden" name="item_name" value="Practical Coding Course">
-									<input type="hidden" name="amount" value="99">
-									<input type="hidden" name="currency_code" value="USD">
-								
-									<!-- Display the payment button. -->
-									<input type="image" name="submit" border="0"
-									src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
-									alt="Buy Now">
-									<img alt="" border="0" width="1" height="1"
-									src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
-								
+								<form action="your-server-side-code" method="POST">
+									<script
+										src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+										data-key="pk_test_YZt4CSOXyDwPqdpM96UN2286"
+										data-amount="1999"
+										data-name="Stripe.com"
+										data-description="Practical Coding Programming Course: $19.99 sale	"
+										data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+										data-locale="auto"
+										data-zip-code="true">
+									</script>
 								</form>
+								
 			</header>
 		</div>
 	</section>
